@@ -1,0 +1,21 @@
+{
+    "name": "monokai-flow",
+    "displayName": "Monokai Flow",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Flow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai Flow-color-theme.json"
+            }
+        ]
+    }
+}
