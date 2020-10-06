@@ -368,6 +368,8 @@
     // "tab.activeBackground": "#ff0000",
     // "tab.inactiveBackground": "#34352f",
     "tab.border": "#1e1f1c",
+    // NOTE: Tabs background
+    "editorGroupHeader.tabsBackground": "#1e1f1c",
     // TODO: Investigate these
     // "widget.shadow": "#000000",
     // "progressBar.background": "#75715E",
@@ -375,7 +377,10 @@
     // "badge.foreground": "#f8f8f2",
     // "panelTitle.activeForeground": "#f8f8f2",
     // "panelTitle.activeBorder": "#75715E",
-    // "panelTitle.inactiveForeground": "#75715E",
+    // NOTE: Terminal tabs
+    "panelTitle.inactiveForeground": "#75715E",
+    "panelTitle.activeBorder": "#171717",
+    "panel.background": "#171717",
     // "panel.border": "#414339",
     // NOTE: Line number color
     "editorLineNumber.foreground": "#575757",
