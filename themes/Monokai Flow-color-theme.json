@@ -396,7 +396,7 @@
     // "activityBar.activeBorder": "#ff0000",
     // NOTE: Sidebar background color (file structure)
     "sideBar.background": "#0f0f0f",
-    // TODO:
+    
     "sideBarSectionHeader.background": "#272822",
     "menu.background": "#1e1f1c",
     "menu.foreground": "#cccccc",
