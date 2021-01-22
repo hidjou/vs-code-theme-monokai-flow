@@ -3,14 +3,15 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "variable": "#0000ff",
+    "variable": "#e0cdf8", // e.g. __dirname
     "variable.defaultLibrary": "#A6E22E", // e.g. console
-    "variable.readonly": "#e0cdf8",
+    // "variable.readonly": "#e0cdf8", // e.g. const app = express()
+    // "variable.declaration": "#e0cdf8", // e.g. const app = express()
+    // "variable.local": "#e0cdf8", // e.g. block scoped vars
     // "variable.readonly.local": "#e0cdf8",
-    "variable.other.constant.object.readonly": "#00ff00",
     "property": {
-      "foreground": "#95ffb5",
-      "fontStyle": ""
+      "foreground": "#a4e5ff",
+      "fontStyle": "" // Reset styles if has inherited ones
     }
   },
   "tokenColors": [
@@ -30,49 +31,36 @@
       "name": "Object Property Key",
       "scope": "meta.object-literal.key",
       "settings": {
-        "foreground": "#95ffb5"
+        "foreground": "#a4e5ff"
       }
     },
     {
       // NOTE: variables
       "name": "Variable",
       "scope": "variable",
-      "settings": {
-        "foreground": "#e0cdf8"
-        // "foreground": "#fff3bb"
-      }
+      "settings": { "foreground": "#e0cdf8" }
     },
     {
-      // NOTE: Object property (accessed with obj.var)
+      // NOTE: Object property, when not sure if exists (e.g. err.message)
       "name": "Variable other prop",
       "scope": "variable.other.property",
-      "settings": {
-        "foreground": "#ff0000",
-        "fontStyle": "underline"
-      }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
-      "settings": {
-        "foreground": "#F8F8F2"
-      }
+      "settings": { "foreground": "#F8F8F2" }
     },
     {
       // NOTE: Comment
       "name": "Comment",
       "scope": "comment",
-      "settings": {
-        "foreground": "#55b5b5"
-      }
+      "settings": { "foreground": "#55b5b5" }
     },
     {
       // NOTE: Strings
       "name": "String",
       "scope": "string",
-      "settings": {
-        // "foreground": "#E6DB74",
-        "foreground": "#fff06d"
-      }
+      "settings": { "foreground": "#fff06d" }
     },
     {
       "name": "Template Definition",
@@ -80,102 +68,78 @@
         "punctuation.definition.template-expression",
         "punctuation.section.embedded"
       ],
-      "settings": {
-        "foreground": "#F92672"
-      }
+      "settings": { "foreground": "#F92672" }
     },
     {
       "name": "Reset JavaScript string interpolation expression",
       "scope": ["meta.template.expression"],
-      "settings": {
-        "foreground": "#F8F8F2"
-      }
+      "settings": { "foreground": "#F8F8F2" }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
+      "settings": { "foreground": "#AE81FF" }
     },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
+      "settings": { "foreground": "#AE81FF" }
     },
     {
       "name": "User-defined constant",
       "scope": "constant.character, constant.other",
-      "settings": {
-        "foreground": "#AE81FF"
-      }
+      "settings": { "foreground": "#AE81FF" }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "settings": {
-        "foreground": "#F92672"
-      }
+      "settings": { "foreground": "#F92672" }
     },
+    // {
+    //   "name": "Storage",
+    //   "scope": "storage",
+    //   "settings": { "foreground": "#17d8ff" }
+    // },
     {
       // NOTE: e.g. extends keyword
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        // "foreground": "#66D9EF",
-        "foreground": "#17d8ff"
-      }
+      "name": "Storage Modifier",
+      "scope": "storage.modifier",
+      "settings": { "foreground": "#17d8ff" }
     },
     {
       // NOTE: type, e.g. const, let... etc
       "name": "Storage type",
       "scope": "storage.type",
-      "settings": {
-        // "foreground": "#66D9EF",
-        "foreground": "#17d8ff"
-      }
+      "settings": { "foreground": "#17d8ff" }
     },
     {
       // NOTE: Class name and type
       "name": "Class name",
       "scope": "entity.name.type, entity.name.class",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
+      "settings": { "foreground": "#A6E22E" }
     },
     {
       // NOTE: Class
       "name": "Class name",
       "scope": "entity.name.class",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
+      "settings": { "foreground": "#A6E22E" }
     },
     {
       // NOTE: Class
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
+      "settings": { "foreground": "#A6E22E" }
     },
     {
       // NOTE: Function names
       "name": "Function name",
       "scope": "entity.name.function",
-      "settings": {
-        // "foreground": "#bbff99"
-        "foreground": "#56ff7b"
-      }
+      "settings": { "foreground": "#56ff7b" }
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#ff8800"
-      }
+      "settings": { "foreground": "#ff8800" }
     },
     {
       "name": "Tag name",
