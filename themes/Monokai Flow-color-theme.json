@@ -1,15 +1,59 @@
 {
+  "name": "Monokai Flow",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable": "#0000ff",
+    "variable.defaultLibrary": "#A6E22E", // e.g. console
+    "variable.readonly": "#e0cdf8",
+    // "variable.readonly.local": "#e0cdf8",
+    "variable.other.constant.object.readonly": "#00ff00",
+    "property": {
+      "foreground": "#95ffb5",
+      "fontStyle": ""
+    }
+  },
   "tokenColors": [
     {
+      // NOTE: Colons and commas in objects
+      "name": "Colons and commas",
+      "scope": [
+        "punctuation.separator.key-value",
+        "punctuation.separator.comma"
+      ],
       "settings": {
-        "background": "#272822",
-        "foreground": "#F8F8F2"
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      // NOTE: Object Property keys
+      "name": "Object Property Key",
+      "scope": "meta.object-literal.key",
+      "settings": {
+        "foreground": "#95ffb5"
+      }
+    },
+    {
+      // NOTE: variables
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#e0cdf8"
+        // "foreground": "#fff3bb"
+      }
+    },
+    {
+      // NOTE: Object property (accessed with obj.var)
+      "name": "Variable other prop",
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#ff0000",
+        "fontStyle": "underline"
       }
     },
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
       "settings": {
-        "background": "#272822",
         "foreground": "#F8F8F2"
       }
     },
@@ -66,15 +110,6 @@
       "scope": "constant.character, constant.other",
       "settings": {
         "foreground": "#AE81FF"
-      }
-    },
-    {
-      // NOTE: variables
-      "name": "Variable",
-      "scope": "variable",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#e0cdf8"
       }
     },
     {
@@ -193,7 +228,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
         "foreground": "#F8F8F0"
       }
@@ -202,7 +236,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
         "foreground": "#F8F8F0"
       }
     },
@@ -396,7 +429,7 @@
     // "activityBar.activeBorder": "#ff0000",
     // NOTE: Sidebar background color (file structure)
     "sideBar.background": "#0f0f0f",
-    
+
     "sideBarSectionHeader.background": "#272822",
     "menu.background": "#1e1f1c",
     "menu.foreground": "#cccccc",
@@ -448,6 +481,5 @@
     "terminal.ansiBrightMagenta": "#AE81FF",
     "terminal.ansiBrightCyan": "#66D9EF",
     "terminal.ansiBrightWhite": "#f8f8f2"
-  },
-  "name": "Monokai Flow"
+  }
 }
