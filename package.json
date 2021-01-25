@@ -1,8 +1,8 @@
 {
   "name": "monokai-flow",
   "displayName": "Monokai Flow",
-  "description": "A monokai based theme with darker backgrounds and brighter colors to put you in flow",
-  "version": "0.0.1",
+  "description": "Colorful and Flow inducing theme",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.18.0"
   },
@@ -10,17 +10,18 @@
   "author": {
     "name": "Ahmed Hadjou"
   },
-  "license": "MIT",
+  "icon": "images/paint.png",
   "homepage": "https://github.com/hidjou/vs-code-theme-monokai-flow",
   "repository": {
     "type": "git",
     "url": "https://github.com/hidjou/vs-code-theme-monokai-flow"
   },
-  "icon": "paint.png",
+  "license": "MIT",
   "keywords": [
-    "VS Code Theme",
-    "VS Code Monokai",
-    "Monokai Flow"
+    "VSCode",
+    "Theme",
+    "Monokai",
+    "Flow"
   ],
   "categories": [
     "Themes"
@@ -30,7 +31,7 @@
       {
         "label": "Monokai Flow",
         "uiTheme": "vs-dark",
-        "path": "./themes/Monokai Flow-color-theme.json"
+        "path": "./themes/monokai-flow-color-theme.json"
       }
     ]
   }
