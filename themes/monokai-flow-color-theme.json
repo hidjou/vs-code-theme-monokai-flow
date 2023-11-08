@@ -430,20 +430,20 @@
 
     // NOTE: Terminal Colors
     "terminal.ansiBlack": "#333333",
-    "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
-    "terminal.ansiGreen": "#14a333",
-    "terminal.ansiYellow": "#e6e62b",
     "terminal.ansiBlue": "#6A7EC8",
-    "terminal.ansiMagenta": "#734db9",
-    "terminal.ansiCyan": "#49cae0",
-    "terminal.ansiWhite": "#e3e3dd",
     "terminal.ansiBrightBlack": "#666666",
-    "terminal.ansiBrightRed": "#00ff00",
-    "terminal.ansiBrightGreen": "#A6E22E",
-    "terminal.ansiBrightYellow": "#e2e22e", // hue shifted #A6E22E
-    "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
-    "terminal.ansiBrightMagenta": "#AE81FF",
+    "terminal.ansiBrightBlue": "#819AFF", // hue shifted #AE81FF
     "terminal.ansiBrightCyan": "#66D9EF",
-    "terminal.ansiBrightWhite": "#f8f8f2"
+    "terminal.ansiBrightGreen": "#A6E22E",
+    "terminal.ansiBrightMagenta": "#AE81FF",
+    "terminal.ansiBrightRed": "#00FF00", // "terminal.ansiBrightYellow": "#e2e22e", // hue shifted #A6E22E
+    "terminal.ansiBrightWhite": "#F8F8F2",
+    "terminal.ansiBrightYellow": "#E6E62B",
+    "terminal.ansiCyan": "#49CAE0",
+    "terminal.ansiGreen": "#14A333",
+    "terminal.ansiMagenta": "#734DB9",
+    "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
+    "terminal.ansiWhite": "#E3E3DD",
+    "terminal.ansiYellow": "#E6E62B"
   }
 }
