@@ -2,7 +2,10 @@
   "name": "monokai-flow",
   "displayName": "Monokai Flow",
   "description": "Colorful and Flow inducing theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "scripts": {
+    "publish": "npm version patch && vsce package && vsce publish"
+  },
   "engines": {
     "vscode": "^1.18.0"
   },
