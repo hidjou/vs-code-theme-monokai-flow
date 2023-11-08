@@ -429,21 +429,39 @@
     // "peekViewEditor.matchHighlightBackground": "#75715E",
 
     // NOTE: Terminal Colors
-    "terminal.ansiBlack": "#333333",
-    "terminal.ansiBlue": "#6A7EC8",
-    "terminal.ansiBrightBlack": "#666666",
-    "terminal.ansiBrightBlue": "#819AFF", // hue shifted #AE81FF
+    // "terminal.ansiBlack": "#333333",
+    // "terminal.ansiBlue": "#6A7EC8",
+    // "terminal.ansiBrightBlack": "#666666",
+    // "terminal.ansiBrightBlue": "#819AFF",
+    // "terminal.ansiBrightCyan": "#66D9EF",
+    // "terminal.ansiBrightGreen": "#00FF00",
+    // "terminal.ansiBrightMagenta": "#AE81FF",
+    // "terminal.ansiBrightRed": "#FF0000",
+    // "terminal.ansiBrightWhite": "#F8F8F2",
+    // "terminal.ansiBrightYellow": "#E2E22E",
+    // "terminal.ansiCyan": "#49CAE0",
+    // "terminal.ansiGreen": "#00FF00",
+    // "terminal.ansiMagenta": "#734DB9",
+    // "terminal.ansiRed": "#FF0000",
+    // "terminal.ansiWhite": "#E3E3DD",
+    // "terminal.ansiYellow": "#E2E22E"
+
+    // Based on Monokai (modified) https://glitchbone.github.io/vscode-base16-term/#/monokai
+    "terminal.ansiBlack": "#272822",
+    "terminal.ansiBlue": "#66D9EF",
+    "terminal.ansiBrightBlack": "#75715E",
+    "terminal.ansiBrightBlue": "#66D9EF",
     "terminal.ansiBrightCyan": "#66D9EF",
     "terminal.ansiBrightGreen": "#A6E22E",
     "terminal.ansiBrightMagenta": "#AE81FF",
-    "terminal.ansiBrightRed": "#00FF00", // "terminal.ansiBrightYellow": "#e2e22e", // hue shifted #A6E22E
-    "terminal.ansiBrightWhite": "#F8F8F2",
-    "terminal.ansiBrightYellow": "#E6E62B",
-    "terminal.ansiCyan": "#49CAE0",
-    "terminal.ansiGreen": "#14A333",
-    "terminal.ansiMagenta": "#734DB9",
-    "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
-    "terminal.ansiWhite": "#E3E3DD",
-    "terminal.ansiYellow": "#E6E62B"
+    "terminal.ansiBrightRed": "#F92672",
+    "terminal.ansiBrightWhite": "#F9F8F5",
+    "terminal.ansiBrightYellow": "#E2E22E",
+    "terminal.ansiCyan": "#66D9EF",
+    "terminal.ansiGreen": "#A6E22E",
+    "terminal.ansiMagenta": "#AE81FF",
+    "terminal.ansiRed": "#F92672",
+    "terminal.ansiWhite": "#F8F8F2",
+    "terminal.ansiYellow": "#E2E22E"
   }
 }
